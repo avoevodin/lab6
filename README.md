@@ -11,23 +11,28 @@ python3 -m unittest -v
 
 ## Test coverage
 
-1. run test with coverage
+1. install coverage module
+```shell
+pip3 install coverage
+```
+
+2. run test with coverage
 ```shell
 coverage run -m unittest -v
 ```
 
-2. generate simple report
+3. generate simple report
 ```shell
 coverage report -m
 ```
 
-3. generate rich html report and open it
+4. generate rich html report and open it
 ```shell
 coverage html
 open htmlcov/index.html
 ```
 
-4. cleanup
+5. cleanup
 ```shell
 coverage erase 
 rm -rf htmlcov/
