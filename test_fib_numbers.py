@@ -1,8 +1,8 @@
 import unittest
-from dp_fib_numbers import *
+from dp_fib_numbers import fib, fib_rec
 
 
-class FiboncciTestCase(unittest.TestCase):
+class FibonacciTestCase(unittest.TestCase):
     def test_case_fib1(self):
         num = 4
         fib_n = [0, 1, 1, 2, 3]
@@ -22,7 +22,7 @@ class FiboncciTestCase(unittest.TestCase):
         self.assertEqual(fib_n, fib_n_counted)
 
 
-class FiboncciRecTestCase(unittest.TestCase):
+class FibonacciRecTestCase(unittest.TestCase):
     def test_case_fib_rec1(self):
         num = 4
         fib_n = [0, 1, 1, 2, 3]
