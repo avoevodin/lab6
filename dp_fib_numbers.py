@@ -1,6 +1,7 @@
 """Generate Fibonacci numbers.
 
 """
+import unittest
 
 
 def fib_rec(num):
@@ -24,3 +25,7 @@ def fib(num):
     for i in range(2, num + 1):
         fib_n[i] = fib_n[i - 1] + fib_n[i - 2]
     return fib_n
+
+
+if __name__ == '__main__':
+    unittest.main(verbosity=2, module='test_fib_numbers')
