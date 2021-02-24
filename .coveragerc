@@ -3,3 +3,4 @@ source = .
 branch = True
 omit =
 	venv/*
+	test_*
