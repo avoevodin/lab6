@@ -4,3 +4,4 @@ branch = True
 omit =
 	venv/*
 	test_*
+	server_html.py
